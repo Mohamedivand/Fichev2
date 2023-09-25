@@ -1,0 +1,243 @@
+
+  body {
+    background-color: rgba(135, 206, 250, 0.8) !important;
+    background-image: url("../Images/LogoPMU20.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .Entete {
+      border: 1px solid black;
+  
+      width: 35%;
+      text-align: center;
+      margin-left: 30%;
+  }
+
+  .styleTable{
+      text-align: center;
+      border: 1px solid black;
+      width: 100%;
+      max-width: 800px;
+      margin-left: 25%;
+  }
+
+  table {
+      
+      border: 1px solid black;
+      width: 80%;
+      margin: 0 auto;
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+    }
+    tr{
+      border: 1px solid black;
+      text-align: center;
+    }
+    
+    th, td {
+      border: 1px solid black;
+      text-align: center;
+      padding: 8px;
+    }
+    
+    thead {
+      background-color: #333;
+      color: #fff;
+    }
+    
+    .commentaire{
+      position: relative;
+    }
+    
+    tbody tr:hover {
+      background-color: #ddd;
+    }
+
+  .taillePlus{
+      font-size: 20px;
+  }
+
+  .submit{
+      display: block;
+      margin: 0 auto;
+      text-align:center;
+  }
+
+  .parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    margin-top: 20px;
+  }
+
+  .textCentrer{
+    text-align: center;
+  }
+  .rouge{
+    color:red;
+  }
+
+  .gauche{
+    align-items: left;
+  }
+  .allonger{
+    height: 40px;
+    width: 200px;
+  }
+  .margetop100{
+      margin-top: 20px;
+  }
+  .marginleft{
+    margin-left: 20px;
+  }
+  .marginright{
+    margin-right: 50px;
+  }
+
+  .EnteteDetail {
+    border: 1px solid black;
+    width: 35%;
+    text-align: center;
+    margin-left: 30%;
+  }
+  .direction-groupe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .tableauhead {
+    background-color: #333;
+    color: #fff;
+  }
+  .btn-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    justify-items: center;
+    align-items: center;
+    height: auto;
+    margin-top: 10px;
+  }
+  .margetop100{
+    margin-top: 100px;
+  }
+  .margetop10{
+  margin-top: 10px;
+  }
+  .allonger{
+    height: 200px;
+    width: 500px;
+  }
+  .submit{
+    display: block;
+    margin: 0 auto;
+    text-align:center;
+  }
+
+
+  .border{
+  border: 1px solid black;
+  }
+  .PasAcces{
+    background-color: #ff0000; /* couleur de fond */
+    color: #fff; /* couleur du texte */
+    font-size: 18px; /* taille de police */
+    padding: 10px; /* espace intérieur */
+    text-align: center; /* alignement du texte */
+    width: 50%; /* largeur du paragraphe */
+    margin: auto !important; /* centrer le paragraphe */
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .btn-container button {
+    margin: 30px;
+    background-color: #4CAF50;
+    color: white;
+    height: 100px;
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  .btn-container{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+
+    justify-items: center;
+    align-items: center;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .panel-primary {
+          
+    border: 1px;
+    box-shadow: none;
+  }
+
+  .panel-body {
+    
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .container {
+    
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .enAttente{
+    text-align: center;
+    color: #ff0000;
+    font-size: x-large;
+  }
+
+
+/* Styles pour 1366x768 
+@media screen and (max-width: 1366px) {
+  body {
+    background-size: contain !important;
+  }
+  .allonger {
+    height: 150px;
+    width: 400px;
+  }
+  .margetop100,
+  .margetop10 {
+    margin-top: 50px;
+  }
+  .marginleft {
+    margin-left: 10px;
+  }
+}
+
+
+/* Styles pour 768x1024 (portrait) 
+@media screen and (max-width: 768px) {
+  body {
+    background-size: contain !important;
+  }
+  .allonger {
+    height: 100px;
+    width: 300px;
+  }
+  .margetop100,
+  .margetop10 {
+    margin-top: 30px;
+  }
+  .marginleft {
+    margin-left: 5px;
+  }
+}

@@ -1,0 +1,378 @@
+@media screen and (max-width: 1366px) {
+
+  .signature-container {
+    min-height: 230px; /* Ajustez la hauteur en conséquence */
+  }
+  
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .signature-container {
+    min-height: 200px;
+  }
+  
+
+}
+  body {
+    background-color: rgba(135, 206, 250, 0.8);
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: cover;
+  }
+    
+    .Entete {
+        border: 1px solid black;
+    
+        width: 35%;
+        text-align: center;
+        margin-left: 30%;
+    }
+    
+    .styleTable{
+        text-align: center;
+        border: 1px solid black;
+        width: 100%;
+        max-width: 800px;
+        margin-left: 25%;
+    }
+    
+    table {
+        
+        border: 1px solid black;
+        width: 80%;
+        margin: 0 auto;
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+      }
+      tr{
+        border: 1px solid black;
+        text-align: center;
+      }
+      
+      th, td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 8px;
+      }
+      
+      thead {
+        background-color: #333;
+        color: #fff;
+      }
+      
+      .commentaire{
+        position: relative;
+      }
+      
+    
+    .taillePlus{
+        font-size: 20px;
+    }
+    .taillePlus10{
+      font-size: 10px;
+  }
+    
+    .submit{
+        display: block;
+        margin: 0 auto;
+        text-align:center;
+    }
+    
+    .parent{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40vh;
+      margin-top: 20px;
+    }
+    
+    .textCentrer{
+      text-align: center;
+    }
+    .rouge{
+      color:red;
+    }
+    
+    .gauche{
+      align-items: left;
+    }
+    .allonger{
+      height: 40px;
+      width: 200px;
+    }
+    .margetop100{
+        margin-top: 20px;
+    }
+    .marginleft{
+      margin-left: 20px;
+    }
+    .marginright{
+      margin-right: 50px;
+    }
+    
+    .EnteteDetail {
+      border: 1px solid black;
+      width: 35%;
+      text-align: center;
+      margin-left: 30%;
+    }
+
+    .right{
+      text-align: right;
+    }
+
+    @media print {
+      /* Masquer le bouton d'impression */
+      button#print-button {
+        display: none;
+      }
+    }
+    .hideInPrint {
+      display: none;
+    }
+    .fusion{
+      border-collapse: separate;
+    }
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+    
+    .table-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+    
+    .signature-table {
+      margin-bottom: 5px;
+    }
+    .marginleft250{
+      margin-left: 250px;
+    }
+    .droite{
+      align-items: right;
+    }
+    .empty {
+      width: 0;
+      padding: 0;
+      border: none;
+    }
+    .table-fixed {
+      width: 100%;
+      table-layout: fixed;
+    }
+
+    @media print {
+      body {
+        background-image: url("../Images/LogoPMU20.png") !important;
+        background-repeat: no-repeat !important;
+        background-size: contain !important;
+        background-position: 120% 150% !important;
+        background-attachment: fixed !important;
+      
+      }
+    }
+    #Modification{
+      text-align: center;
+      color: green !important;
+    }
+
+  .grise{
+    cursor: not-allowed;
+  }
+
+  #valider{
+    color: green !important;
+    font-style: italic ;
+    text-align: center ;
+  }
+  .signature-container {
+    position: relative;
+    bottom: 0;
+    min-height: 170px; /* Hauteur de la fenêtre visible */
+  }
+
+  .signature {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+  }
+
+  .signature div {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    font-size: 18px;
+  }
+  .signature-adjoint{
+    font-size: 18px;
+    
+    padding-right: 10px;
+    
+  }
+  .grise{
+    opacity: 0.6;
+  cursor: not-allowed;
+  background-color: #D3D3D3;
+
+  }
+  .approuver{
+  background-color: #8AFF06;
+  }
+  .demandeModif{
+  background-color: #F9F10E;
+  }
+  .refuser{
+  background-color: #FF4500;
+  }
+
+  .valider{
+  font-style: italic;
+  color: green !important;
+  text-align: center;
+  }
+
+  .signature-container {
+    position: relative;
+    bottom: 0;
+    min-height: 170px; /* Hauteur de la fenêtre visible */
+  }
+
+  .signature {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  .signature div {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    font-size: 18px;
+  }
+  .signature-adjoint{
+    font-size: 17px;
+    white-space: nowrap;
+    padding-right: 10px;
+    text-indent: -8px;
+  }
+  .popup{
+      position: fixed;
+      top: 70% !important;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ccc;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+      z-index: 9999;
+    }
+  
+
+
+
+
+/* Styles pour 1366x768 
+@media screen and (max-width: 1366px) {
+  body {
+    background-size: contain !important;
+  }
+  .allonger {
+    height: 150px;
+    width: 400px;
+  }
+  .margetop100,
+  .margetop10 {
+    margin-top: 50px;
+  }
+  .marginleft {
+    margin-left: 10px;
+  }
+  .Entete, .styleTable {
+    width: 50%;
+    margin-left: 25%;
+  }
+  .signature {
+    position: static; /* Rétablir la position par défaut 
+    width: auto;
+    margin-top: 60px !important;  /* Ajuster la marge pour éviter le chevauchement 
+  }
+
+  .signature-container {
+    position: relative;
+    bottom: 0;
+    min-height: 170px; /* Hauteur de la fenêtre visible 
+  }
+
+  .signature {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 60px !important;
+  }
+
+  .signature div {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    font-size: 18px;
+    margin-top: 60px !important;
+  }
+  .signature-adjoint{
+    font-size: 20px;
+    white-space: nowrap;
+    padding-right: 10px;
+    text-indent: -8px;
+    margin-top: 60px !important;
+  }
+}
+
+/* Styles pour 768x1024 (portrait) 
+@media screen and (max-width: 768px) {
+  body {
+    background-size: contain !important;
+  }
+  .allonger {
+    height: 100px;
+    width: 300px;
+  }
+  .margetop100,
+  .margetop10 {
+    margin-top: 30px;
+  }
+  .marginleft {
+    margin-left: 5px;
+  }
+  .Entete, .styleTable {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .signature {
+    position: static; /* Rétablir la position par défaut 
+    width: auto;
+    margin-top: 60px !important; /* Ajuster la marge pour éviter le chevauchement 
+  }
+}
